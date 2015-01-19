@@ -282,7 +282,7 @@ module RETS
             @request_size, @request_hash = stream.size, stream.hash
           end
         end
-
+        puts @rets_data
         nil
       end
     end
